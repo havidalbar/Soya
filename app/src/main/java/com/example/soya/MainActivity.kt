@@ -10,7 +10,7 @@ import android.R.id.home
 
 
 class MainActivity : AppCompatActivity() {
-    private val waktuloading = 4000
+    private val waktuloading = 3000
 
     //4000=4 detik
 
@@ -19,8 +19,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         Handler().postDelayed(Runnable {
             //setelah loading maka akan langsung berpindah ke home activity
-            val home = Intent(this@MainActivity, HomeActivity::class.java)
-            startActivity(home)
+            val welcome = Intent(this@MainActivity, welcome::class.java)
+            startActivity(welcome)
             finish()
         }, waktuloading.toLong())
     }

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="36dp">
+
+    <FrameLayout
+        android:id="@+id/fl_daftar_kolam"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:background="@drawable/background_abuabu"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_lokasi"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/iv_nama_ikan"
+            android:layout_width="128dp"
+            android:layout_height="72dp"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"
+            android:src="@drawable/ikanmas" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/tv_nama_agen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="2dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Nama Agen"
+        android:textColor="@color/colorGreyFont"
+        app:layout_constraintStart_toEndOf="@+id/fl_daftar_kolam"
+        app:layout_constraintTop_toBottomOf="@+id/tv_nama_ikan" />
+
+    <TextView
+        android:id="@+id/tv_nama_ikan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Nama Ikan"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/fl_daftar_kolam"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_lokasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="7dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Lokasi"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toEndOf="@+id/fl_daftar_kolam"
+        app:layout_constraintTop_toBottomOf="@+id/tv_luas" />
+
+    <TextView
+        android:id="@+id/tv_luas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="7dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Luas"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toEndOf="@+id/fl_daftar_kolam"
+        app:layout_constraintTop_toBottomOf="@+id/tv_nama_agen" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

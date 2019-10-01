@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MediaTanah"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/ambilfoto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="103dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="103dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/ambil_foto_tanah"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#1F355E"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/kenalijenis"
+        android:layout_width="315dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="48dp"
+        android:text="@string/kenali_jenis_tanah_yang_menjadi_media_pembudidayaan_anda"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ambilfoto" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="133dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kenalijenis"
+        app:srcCompat="@drawable/camera" />
+
+    <TextView
+        android:id="@+id/tekantombol"
+        android:layout_width="331dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="40dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/tekan_tombol_kamera_untuk_mengambil_foto_tanah"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton2" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="410dp"
+        android:layout_height="45dp"
+        android:background="#00A5DF"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/saya_sudah_tau_jenis_tanah_yang_digunakan"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

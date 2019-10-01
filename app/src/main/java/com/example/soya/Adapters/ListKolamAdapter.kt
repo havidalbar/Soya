@@ -1,13 +1,11 @@
 package com.example.soya.Adapters
 
-import android.graphics.Bitmap
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.example.soya.Fragments.KolamIkan
-
 import com.example.soya.R
 
 class ListKolamAdapter(val items : ArrayList<KolamIkan>) : RecyclerView.Adapter<ViewHolder>() {
@@ -34,7 +32,7 @@ class ViewHolder (inflater: LayoutInflater, parent: ViewGroup) :
     private var tvNamaAgen: TextView? = null
     private var tvLuas: TextView? = null
     private var tvLokasi: TextView? = null
-
+    private var parentViewGroup: ViewGroup = parent
 
     init {
         ivNamaIkan = itemView.findViewById(R.id.iv_nama_ikan)
@@ -45,7 +43,8 @@ class ViewHolder (inflater: LayoutInflater, parent: ViewGroup) :
     }
 
     fun bind(kolamIkan: KolamIkan) {
-
+        val drawableId: Int = parentViewGroup.context.getResources().getIdentifier(kolamIkan.gambarIkan, "drawable", parentViewGroup.context.getPackageName())
+        ivNamaIkan?.setImageDrawable(parentViewGroup.context.getResources().getDrawable(drawableId))
         tvNamaIkan?.text = kolamIkan.jenisIkan
         tvNamaAgen?.text = kolamIkan.namaAgen
         tvLuas?.text = kolamIkan.luasKolam

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PilihMedia"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/apamedia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="144dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/apa_media"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#1F355E"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/pembudidayaan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="73dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/pembudidayaan_anda"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#1F355E"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/apamedia" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="271dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="40dp"
+        android:text="@string/pilih_media_pembudidayaan_yang_anda_akan_gunakan"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pembudidayaan" />
+
+    <TextView
+        android:id="@+id/tanah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="175dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/tanah"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+
+    <Button
+        android:id="@+id/buttontanah"
+        android:layout_width="160dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="126dp"
+        android:background="@drawable/tanah"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tanah" />
+
+    <TextView
+        android:id="@+id/terpal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="174dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="174dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/terpal"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttontanah" />
+
+    <Button
+        android:id="@+id/buttonterpal"
+        android:layout_width="160sp"
+        android:layout_height="120sp"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="126dp"
+        android:background="@drawable/terpal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/terpal" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

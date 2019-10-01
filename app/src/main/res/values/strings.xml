@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Soya</string>
+    <string name="apa_media">Apa Media</string>
+    <string name="pembudidayaan_anda">Pembudidayaan Anda?</string>
+    <string name="pilih_media_pembudidayaan_yang_anda_akan_gunakan">Pilih media pembudidayaan yang anda akan gunakan</string>
+    <string name="tanah">Tanah</string>
+    <string name="terpal">Terpal</string>
 </resources>

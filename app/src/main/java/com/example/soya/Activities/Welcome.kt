@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.widget.Button
 import com.example.soya.R
 
-class WelcomeActivity : AppCompatActivity() {
+class Welcome : AppCompatActivity() {
 
     private lateinit var buttonMasuk: Button;
     private lateinit var buttonDaftar: Button;
@@ -19,10 +19,10 @@ class WelcomeActivity : AppCompatActivity() {
         buttonDaftar = findViewById(R.id.buttondaftar)
 
         buttonMasuk.setOnClickListener{
-            startActivity(Intent(this, MasukActivity::class.java))
+            startActivity(Intent(this, Masuk::class.java))
         }
         buttonDaftar.setOnClickListener{
-            startActivity(Intent(this, DaftarSebagaiActivity::class.java))
+            startActivity(Intent(this, DaftarSebagai::class.java))
         }
     }
 }

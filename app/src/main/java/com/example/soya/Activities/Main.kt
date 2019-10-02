@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.os.Handler;
 import com.example.soya.R
 
-class MainActivity : AppCompatActivity() {
+class Main : AppCompatActivity() {
     private val waktuloading = 3000
 
 
@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         Handler().postDelayed(Runnable {
             //setelah loading maka akan langsung berpindah ke home activity
-            val welcome = Intent(this, WelcomeActivity::class.java)
+            val welcome = Intent(this, Welcome::class.java)
             startActivity(welcome)
             finish()
         }, waktuloading.toLong())

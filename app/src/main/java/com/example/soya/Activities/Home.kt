@@ -11,7 +11,7 @@ import com.example.soya.R
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import kotlinx.android.synthetic.main.activity_home.*
 
-class HomeActivity : AppCompatActivity() {
+class Home : AppCompatActivity() {
 
     private var fragment_home_container: FrameLayout? = null
 

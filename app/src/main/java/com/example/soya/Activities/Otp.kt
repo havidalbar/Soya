@@ -9,7 +9,7 @@ import android.content.Intent
 
 
 
-class OtpActivity : AppCompatActivity() {
+class Otp : AppCompatActivity() {
 
 
     private lateinit var buttonVerif: Button;
@@ -21,7 +21,7 @@ class OtpActivity : AppCompatActivity() {
         buttonVerif = findViewById(R.id.button)
 
         buttonVerif.setOnClickListener{
-            startActivity(Intent(this, HomeActivity::class.java))
+            startActivity(Intent(this, Home::class.java))
         }
     }
 }

@@ -7,7 +7,7 @@ import android.widget.Button
 import com.example.soya.R
 
 
-class MasukActivity : AppCompatActivity() {
+class Masuk : AppCompatActivity() {
 
 
     private lateinit var buttonMasuk: Button;
@@ -20,7 +20,7 @@ class MasukActivity : AppCompatActivity() {
         buttonMasuk = findViewById(R.id.button)
 
         buttonMasuk.setOnClickListener{
-            startActivity(Intent(this, OtpActivity::class.java))
+            startActivity(Intent(this, Otp::class.java))
         }
 
 

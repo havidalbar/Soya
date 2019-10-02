@@ -17,4 +17,9 @@
     <string name="tekan_tombol_kamera_untuk_mengambil_foto_tanah">Tekan tombol kamera untuk mengambil foto tanah</string>
     <string name="saya_sudah_tau_jenis_tanah_yang_digunakan">Saya sudah tau jenis tanah yang digunakan</string>
     <string name="todo">TODO</string>
+    <string name="halo_bapak">Halo Bapak Budi</string>
+    <string name="deskripsi_agen">Perkenalkan saya agen budidaya yang akan membantu anda</string>
+    <string name="nama_agen">Antoni Iqbal, S.Pi</string>
+    <string name="umur">25 Tahun</string>
+    <string name="lokasi">“Saya berada 0,8 km dari lokasi anda”</string>
 </resources>

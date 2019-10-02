@@ -1,9 +1,10 @@
-package com.example.soya
+package com.example.soya.Activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.content.Intent;
 import android.os.Handler;
+import com.example.soya.R
 
 class MainActivity : AppCompatActivity() {
     private val waktuloading = 3000

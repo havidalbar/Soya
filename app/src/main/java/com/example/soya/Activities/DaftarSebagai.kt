@@ -1,7 +1,8 @@
-package com.example.soya
+package com.example.soya.Activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.soya.R
 
 class DaftarSebagai : AppCompatActivity() {
 

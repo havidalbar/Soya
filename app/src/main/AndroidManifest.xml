@@ -9,18 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".MainActivity">
+        <activity android:name=".Activities.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Welcome"></activity>
-        <activity android:name=".MasukActivity"></activity>
-        <activity android:name=".DaftarSebagai"></activity>
-        <activity android:name=".OtpActivity"></activity>
-        <activity android:name=".Activities.HomeActivity">
+        <activity android:name=".Activities.Welcome"></activity>
+        <activity android:name=".Activities.MasukActivity"></activity>
+        <activity android:name=".Activities.DaftarSebagai"></activity>
+        <activity android:name=".Activities.OtpActivity"></activity>
+        <activity android:name=".Activities.HomeActivity"></activity>
 
 
 

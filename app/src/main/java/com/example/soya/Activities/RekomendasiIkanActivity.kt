@@ -32,9 +32,9 @@ class RekomendasiIkanActivity : AppCompatActivity() {
     }
 
     fun addRekomendasiIkans() {
-        rekomendasiIkan.add(RekomendasiIkan("Marjuki","02 Oktober 2019, 19:54","Bagaimana cara membersihkan kolam yang ada ikannya?","1","usermarjuki"))
-        rekomendasiIkan.add(RekomendasiIkan("Siska","02 Oktober 2019, 11:42","Bagaimana cara membersihkan kolam yang ada ikannya?","3","usersiska"))
-        rekomendasiIkan.add(RekomendasiIkan("Herman","30 September 2019, 18:39","Bagaimana cara membersihkan kolam yang ada ikannya?","5","userherman"))
-        rekomendasiIkan.add(RekomendasiIkan("Dodi","28 September 2019, 20:14","Bagaimana cara membersihkan kolam yang ada ikannya?","2","userdodi"))
+        rekomendasiIkan.add(RekomendasiIkan("Ikan Lele","500","25.000","Tinggi","ikanlele"))
+        rekomendasiIkan.add(RekomendasiIkan("Ikan Nila","330","30.000","Sedang","ikannila"))
+        rekomendasiIkan.add(RekomendasiIkan("Ikan Mas","410","40.000","Sedang","ikanmas"))
+        rekomendasiIkan.add(RekomendasiIkan("Ikan Gurame","290","60.000","Sedang","ikangurame"))
     }
 }

@@ -43,7 +43,7 @@ class ViewHolderRekomendasiIkan (inflater: LayoutInflater, parent: ViewGroup) :
 
     fun bind(rekomendasiIkan: RekomendasiIkan){
         val drawableId: Int = parentViewGroup.context.getResources().getIdentifier(rekomendasiIkan.gambarIkan, "drawable", parentViewGroup.context.getPackageName())
-        ivGambarIkan?.setImageDrawable(parentViewGroup.context.getResources().getDrawable(drawableId))
+        ivGambarIkan?.setImageDrawable(parentViewGroup.context.resources.getDrawable(drawableId))
         tvNamaIkan?.text = rekomendasiIkan.namaIkan
         tvJumlahPanen?.text = rekomendasiIkan.jumlahPanen
         tvHargaJual?.text = rekomendasiIkan.hargaJual

@@ -23,8 +23,12 @@
         <activity android:name=".Activities.Home"></activity>
         <activity android:name=".Activities.DaftarAgen"></activity>
         <activity android:name=".Activities.DaftarPembudidaya"></activity>
+        <activity android:name=".Activities.PilihMedia"></activity>
 
 
+<meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
 
 
     </application>

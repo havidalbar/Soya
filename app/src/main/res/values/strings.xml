@@ -7,10 +7,14 @@
     <string name="agen_budidaya">Agen Budidaya</string>
     <string name="siapakah_anda">Siapakah Anda?</string>
     <string name="pembudidaya">Pembudidaya</string>
-    <string name="todo">TODO</string>
     <string name="apa_media">Apa Media</string>
     <string name="pembudidayaan_anda">Pembudidayaan Anda?</string>
     <string name="pilih_media_pembudidayaan_yang_anda_akan_gunakan">Pilih media pembudidayaan yang anda akan gunakan</string>
     <string name="tanah">Tanah</string>
     <string name="terpal">Terpal</string>
+    <string name="ambil_foto_tanah">Ambil Foto Tanah</string>
+    <string name="kenali_jenis_tanah_yang_menjadi_media_pembudidayaan_anda">Kenali jenis tanah yang menjadi media pembudidayaan anda</string>
+    <string name="tekan_tombol_kamera_untuk_mengambil_foto_tanah">Tekan tombol kamera untuk mengambil foto tanah</string>
+    <string name="saya_sudah_tau_jenis_tanah_yang_digunakan">Saya sudah tau jenis tanah yang digunakan</string>
+    <string name="todo">TODO</string>
 </resources>

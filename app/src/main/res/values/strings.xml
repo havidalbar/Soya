@@ -4,4 +4,8 @@
     <string name="logoikan">logoikan</string>
     <string name="masuk">MASUK</string>
     <string name="daftar">DAFTAR</string>
+    <string name="agen_budidaya">Agen Budidaya</string>
+    <string name="siapakah_anda">Siapakah Anda?</string>
+    <string name="pembudidaya">Pembudidaya</string>
+    <string name="todo">TODO</string>
 </resources>

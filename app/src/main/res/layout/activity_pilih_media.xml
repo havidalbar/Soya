@@ -7,6 +7,21 @@
     tools:context=".PilihMedia"
     android:background="#FFFFFF">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="39dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="26dp"
+        android:src="@drawable/ic_back_button"
+        android:tint="#0095CA"
+        app:layout_constraintBottom_toTopOf="@+id/apamedia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.091"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
     <TextView
         android:id="@+id/apamedia"
         android:layout_width="wrap_content"

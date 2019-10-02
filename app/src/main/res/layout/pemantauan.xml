@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android2="..."
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#70BFDD"
+    tools:context=".MainActivity"
+    tools:ignore="NamespaceTypo">
+
+    <TextView
+        android:id="@+id/tvJudul"
+        android:layout_width="329dp"
+        android:layout_height="91dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="75dp"
+        android:fontFamily="Roboto"
+        android:text="@string/pantau_kondisi_kolam_anda"
+        android:textAlignment="center"
+        android:textSize="28dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="75dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/tvTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvJudul"
+        app:srcCompat="@drawable/kaca"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="305dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="50dp"
+        android:text="@string/title"
+        android:textAlignment="center"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnGunakanFitur"
+        android:layout_width="205dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/buttonradius"
+        android:radius="12dp"
+        android:text="@string/btTitle"
+        android:textColor="#FFF"
+        android:textSize="18dp"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="105dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

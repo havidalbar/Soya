@@ -31,4 +31,7 @@
     <string name="btTitle">Gunakan Fitur Ini</string>
     <string name="image_search_soya" />
     <string name="icon_close" />
+    <string name="ajakan">Anda bisa melihat tuntunan budidaya, konsultasi dengan agen anda, berdiskusi dengan yang lain, bahkan melakukan pemantauan kolam anda.</string>
+    <string name="title_pemantauan">Ayo Tingkatkan Produksi Bersama Kami</string>
+    <string name="btPemantauan">Mulai</string>
 </resources>

@@ -8,6 +8,6 @@ class Pemantauan : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.pemantauan)
+        setContentView(R.layout.activity_pemantauan)
     }
 }

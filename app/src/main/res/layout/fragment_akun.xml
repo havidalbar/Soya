@@ -39,7 +39,7 @@
                 android:scaleType="centerCrop"
                 android:src="@drawable/fotoprofil"
                 app:civ_border_color="#0095CA"
-                app:civ_border_width="2dp" />
+                app:civ_border_width="6dp" />
 
             <ImageButton
                 android:layout_width="28dp"

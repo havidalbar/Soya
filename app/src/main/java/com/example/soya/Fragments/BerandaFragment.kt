@@ -55,9 +55,7 @@ class BerandaFragment : Fragment(){
         kolamIkans.add(KolamIkan("Ikan Mas","Andi Ivan","200","Malang","ikanmas"))
         kolamIkans.add(KolamIkan("Ikan Nila","Antoni Iqbal","170","Malang","ikannila"))
         kolamIkans.add(KolamIkan("Ikan Lele","Iwan Nugroho","120","Malang","ikanlele"))
-        kolamIkans.add(KolamIkan("Ikan Mas","Andi Ivan","200","Malang","ikanmas"))
-        kolamIkans.add(KolamIkan("Ikan Nila","Antoni Iqbal","170","Malang","ikannila"))
-        kolamIkans.add(KolamIkan("Ikan Lele","Iwan Nugroho","120","Malang","ikanlele"))
+        kolamIkans.add(KolamIkan("Ikan Nila","Gunawan Adi","140","Malang","ikannila"))
     }
 
 }

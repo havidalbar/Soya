@@ -11,4 +11,5 @@
     <color name="colorGreyForum">#383838</color>
     <color name="colorBlackAkun">#383838</color>
     <color name="colorGreyAkun">#6C6363</color>
+    <color name="colorButtonTambah">#00A5DF</color>
 </resources>

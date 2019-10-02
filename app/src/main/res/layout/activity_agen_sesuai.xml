@@ -131,7 +131,7 @@
         android:layout_marginTop="539dp"
         android:layout_marginEnd="30dp"
         android:background="@drawable/button_keluar_akun"
-        android:text="Keluar"
+        android:text="Halo Juga Bapak Antoni"
         android:textAllCaps="false"
         android:textColor="@android:color/white"
         android:textSize="16sp"

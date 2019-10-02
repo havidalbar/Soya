@@ -20,6 +20,8 @@
         <activity android:name=".MasukActivity"></activity>
         <activity android:name=".DaftarSebagai"></activity>
         <activity android:name=".OtpActivity"></activity>
+        <activity android:name=".Activities.HomeActivity">
+
 
 
     </application>

@@ -16,11 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activities.Welcome"></activity>
+        <activity android:name=".Activities.WelcomeActivity"></activity>
         <activity android:name=".Activities.MasukActivity"></activity>
-        <activity android:name=".Activities.DaftarSebagai"></activity>
+        <activity android:name=".Activities.DaftarSebagaiActivity"></activity>
         <activity android:name=".Activities.OtpActivity"></activity>
         <activity android:name=".Activities.HomeActivity"></activity>
+        <activity android:name=".Activities.DaftarAgenActivity"></activity>
+
 
 
 

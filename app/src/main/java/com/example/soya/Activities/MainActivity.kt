@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         Handler().postDelayed(Runnable {
             //setelah loading maka akan langsung berpindah ke home activity
-            val welcome = Intent(this, Welcome::class.java)
+            val welcome = Intent(this, WelcomeActivity::class.java)
             startActivity(welcome)
             finish()
         }, waktuloading.toLong())

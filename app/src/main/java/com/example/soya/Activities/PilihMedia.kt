@@ -18,7 +18,7 @@ class PilihMedia : AppCompatActivity() {
         buttonPilihTanah = findViewById(R.id.buttontanah)
 
         buttonPilihTanah.setOnClickListener{
-            startActivity(Intent(this, MediaTanah::class.java))
+            startActivity(Intent(this, PilihJenisTanah::class.java))
         }
     }
 }

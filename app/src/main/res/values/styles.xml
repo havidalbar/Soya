@@ -8,4 +8,8 @@
 
     </style>
 
+    <style name="ThemeSoya" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimaryDark">@color/colorStatusBar</item>
+    </style>
+
 </resources>

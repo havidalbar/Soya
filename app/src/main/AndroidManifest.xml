@@ -28,6 +28,8 @@
         <activity android:name=".Activities.PilihMedia"></activity>
         <activity android:name=".Activities.MediaTanah"></activity>
         <activity android:name=".Activities.RekomendasiIkanActivity"></activity>
+        <activity android:name=".Activities.PilihJenisTanahActivity"></activity>
+
 
 
 

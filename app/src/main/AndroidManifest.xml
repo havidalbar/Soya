@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.soya">
     <uses-permission android:name="android.permission.CAMERA"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
@@ -29,7 +30,7 @@
         <activity android:name=".Activities.MediaTanah"></activity>
         <activity android:name=".Activities.RekomendasiIkanActivity"></activity>
         <activity android:name=".Activities.PilihJenisTanahActivity"></activity>
-        <activity android:name=".DataKolamActivity"></activity></activity>
+        <activity android:name=".DataKolamActivity"></activity>
 
 
 
@@ -43,7 +44,8 @@
             android:name="androidx.core.content.FileProvider"
             android:authorities="com.example.soya"
             android:exported="false"
-            android:grantUriPermissions="true">
+            android:grantUriPermissions="true"
+            tools:ignore="WrongManifestParent">
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/file_path">

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.DaftarSebagai"
+    android:background="#FFFFFF">
+
+    <TextView
+        android:id="@+id/siapakahanda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="77dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="76dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/siapakah_anda"
+        android:textColor="#1F355E"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView_siapakah"
+        android:layout_width="186dp"
+        android:layout_height="166dp"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="113dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/siapakahanda"
+        app:srcCompat="@drawable/siapakah"
+        android:contentDescription="@string/todo" />
+
+    <Button
+        android:id="@+id/button_pembudidaya"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="85dp"
+        android:background="@drawable/button_pembudidaya"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/pembudidaya"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_siapakah" />
+
+    <Button
+        android:id="@+id/buttton_agenbudidaya"
+        android:layout_width="240dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="85dp"
+        android:background="@drawable/button_agenbudidaya"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/agen_budidaya"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_pembudidaya"
+        app:layout_constraintVertical_bias="0.021" />
+</androidx.constraintlayout.widget.ConstraintLayout>

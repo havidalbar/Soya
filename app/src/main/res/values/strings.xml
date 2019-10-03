@@ -1,3 +1,37 @@
 <resources>
     <string name="app_name">Soya</string>
+    <string name="logo">logo</string>
+    <string name="logoikan">logoikan</string>
+    <string name="masuk">MASUK</string>
+    <string name="daftar">DAFTAR</string>
+    <string name="agen_budidaya">Agen Budidaya</string>
+    <string name="siapakah_anda">Siapakah Anda?</string>
+    <string name="pembudidaya">Pembudidaya</string>
+    <string name="apa_media">Apa Media</string>
+    <string name="pembudidayaan_anda">Pembudidayaan Anda?</string>
+    <string name="pilih_media_pembudidayaan_yang_anda_akan_gunakan">Pilih media pembudidayaan yang anda akan gunakan</string>
+    <string name="tanah">Tanah</string>
+    <string name="terpal">Terpal</string>
+    <string name="ambil_foto_tanah">Ambil Foto Tanah</string>
+    <string name="kenali_jenis_tanah_yang_menjadi_media_pembudidayaan_anda">Kenali jenis tanah yang menjadi media pembudidayaan anda</string>
+    <string name="tekan_tombol_kamera_untuk_mengambil_foto_tanah">Tekan tombol kamera untuk mengambil foto tanah</string>
+    <string name="saya_sudah_tau_jenis_tanah_yang_digunakan">Saya sudah tau jenis tanah yang digunakan</string>
+    <string name="todo">TODO</string>
+    <string name="halo_bapak">Halo Bapak Budi</string>
+    <string name="deskripsi_agen">Perkenalkan saya agen budidaya yang akan membantu anda</string>
+    <string name="nama_agen">Antoni Iqbal, S.Pi</string>
+    <string name="umur">25 Tahun</string>
+    <string name="lokasi">“Saya berada 0,8 km dari lokasi anda”</string>
+    <string name="textview">TextView</string>
+    <string name="button">Button</string>
+    <string name="pantau_kondisi_kolam_anda">Pantau Kondisi Kolam Anda</string>
+    <string name="center">40dp</string>
+    <string name="mid">87dp</string>
+    <string name="title">Dengan fitur ini anda bisa memantau kualitas air dan hama penyebab penyakit pada ikan budidaya anda</string>
+    <string name="btTitle">Gunakan Fitur Ini</string>
+    <string name="image_search_soya" />
+    <string name="icon_close" />
+    <string name="ajakan">Anda bisa melihat tuntunan budidaya, konsultasi dengan agen anda, berdiskusi dengan yang lain, bahkan melakukan pemantauan kolam anda.</string>
+    <string name="title_pemantauan">Ayo Tingkatkan Produksi Bersama Kami</string>
+    <string name="btPemantauan">Mulai</string>
 </resources>

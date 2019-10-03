@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.soya">
-
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,15 +12,49 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-<!--        <activity android:name=".HomeActivity"></activity>-->
-        <!-- <activity android:name=".BerandaActivity"></activity> -->
-        <activity android:name=".Activities.HomeActivity">
+        <activity android:name=".Activities.Main">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Activities.Welcome"></activity>
+        <activity android:name=".Activities.Masuk"></activity>
+        <activity android:name=".Activities.DaftarSebagai"></activity>
+        <activity android:name=".Activities.Otp"></activity>
+        <activity android:name=".Activities.Home"></activity>
+        <activity android:name=".Activities.DaftarAgen"></activity>
+        <activity android:name=".Activities.DaftarPembudidaya"></activity>
+        <activity android:name=".Activities.PilihMedia"></activity>
+        <activity android:name=".Activities.MediaTanah"></activity>
+        <activity android:name=".Activities.RekomendasiIkanActivity"></activity>
+        <activity android:name=".Activities.PilihJenisTanahActivity"></activity>
+        <activity android:name=".DataKolamActivity"></activity>
+
+
+
+
+
+ <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.soya"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            tools:ignore="WrongManifestParent">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_path">
+
+            </meta-data>
+        </provider>
+
+
     </application>
+
 
 </manifest>

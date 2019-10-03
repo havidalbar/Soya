@@ -34,13 +34,11 @@
         <activity android:name=".Activities.RekomendasiIkanActivity"></activity>
         <activity android:name=".Activities.PilihJenisTanahActivity"></activity>
         <activity android:name=".Activities.TuntunanActivity"></activity>
-        <activity android:name=".DataKolamActivity"></activity>
         <activity android:name=".Activities.TuntunanDetail2"></activity>
         <activity android:name=".Activities.TuntunanDetail3"></activity>
         <activity android:name=".Activities.DataKolamActivity"></activity>
         <activity android:name=".Activities.AgenSesuaiActivity"></activity>
         <activity android:name=".Activities.AjakanActivity"></activity>
-        <activity android:name=".Activities.TuntunanActivity"></activity>
 
 
 

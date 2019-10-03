@@ -44,7 +44,7 @@
         android:layout_marginTop="316dp"
         android:layout_marginEnd="27dp"
         android:fontFamily="sans-serif-medium"
-        android:text="Kolam untuk pembesaran ikan lele tidak serumit dan seluas kolam pembenihan. Anda cukup menyiapkan kolam 5×2 meter untuk menampung kurang lebih 1000 ekor benih ikan lele. Jika ukuran kolam lebih dari itu, hitung saja menggunakan syarat minimal daya tampung per-meter kolam"
+        android:text="Kolam untuk pembesaran ikan mas tidak serumit dan seluas kolam pembenihan. Anda cukup menyiapkan kolam 5×2 meter untuk menampung kurang lebih 1000 ekor benih ikan mas. Jika ukuran kolam lebih dari itu, hitung saja menggunakan syarat minimal daya tampung per-meter kolam"
         android:textColor="@android:color/black"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"

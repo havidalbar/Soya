@@ -105,7 +105,7 @@
         android:ems="10"
         android:fontFamily="sans-serif-condensed-medium"
         android:hint="Cth: 10/08/1980"
-        android:inputType="date"
+        android:inputType="date|text"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

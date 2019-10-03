@@ -5,15 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#70BFDD"
-    tools:context=".Activities.Main"
-    tools:ignore="NamespaceTypo">
+    tools:context="Fragments.HasilFragment">
 
     <TextView
         android:id="@+id/tvJudul"
         android:layout_width="329dp"
         android:layout_height="91dp"
         android:layout_marginStart="40dp"
-        android:layout_marginTop="83dp"
+        android:layout_marginTop="58dp"
         android:layout_marginEnd="40dp"
         android:fontFamily="@font/roboto_medium"
         android:text="@string/pantau_kondisi_kolam_anda"
@@ -30,30 +29,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="101dp"
-        android:layout_marginTop="41dp"
+        android:layout_marginTop="14dp"
         android:layout_marginEnd="101dp"
         android:contentDescription="@string/image_search_soya"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tvJudul"
-        app:srcCompat="@drawable/kaca"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/tvTitle"
-        android:layout_width="305dp"
-        android:layout_height="70dp"
-        android:layout_marginStart="53dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="53dp"
-        android:fontFamily="@font/roboto_medium"
-        android:text="@string/title"
-        android:textAlignment="center"
-        android:textColor="#000"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:srcCompat="@drawable/panen"
         tools:ignore="MissingConstraints" />
 
     <Button
@@ -61,28 +43,37 @@
         android:layout_width="205dp"
         android:layout_height="50dp"
         android:layout_marginStart="100dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="54dp"
         android:layout_marginEnd="100dp"
         android:background="@drawable/buttonradius"
         android:fontFamily="@font/roboto_medium"
         android:radius="12dp"
-        android:text="@string/btTitle"
+        android:text="Iya, sudah panen"
+        android:textAllCaps="false"
         android:textColor="#FFF"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvTitle"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
         tools:ignore="MissingConstraints" />
 
-    <ImageView
-        android:id="@+id/imgClose"
-        android:layout_width="20dp"
-        android:layout_height="20dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginEnd="30dp"
-        android:contentDescription="@string/icon_close"
+    <Button
+        android:id="@+id/btnGunakanFitur2"
+        android:layout_width="205dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="117dp"
+        android:layout_marginEnd="100dp"
+        android:background="@drawable/buttonradiusnon"
+        android:fontFamily="@font/roboto_medium"
+        android:radius="12dp"
+        android:text="Masih Belum"
+        android:textAllCaps="false"
+        android:textColor="#FFF"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/shape" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

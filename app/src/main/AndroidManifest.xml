@@ -2,9 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.soya">
-    <uses-permission android:name="android.permission.CAMERA"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -12,31 +14,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/ThemeSoya">
-        <activity android:name=".Activities.Main">
+<!--        <activity android:name=".Activities.TuntunanActivity"></activity>-->
+        <activity android:name=".Activities.TuntunanActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activities.Welcome"></activity>
-        <activity android:name=".Activities.Masuk"></activity>
-        <activity android:name=".Activities.DaftarSebagai"></activity>
-        <activity android:name=".Activities.Otp"></activity>
-        <activity android:name=".Activities.Home"></activity>
-        <activity android:name=".Activities.DaftarAgen"></activity>
-        <activity android:name=".Activities.DaftarPembudidaya"></activity>
-        <activity android:name=".Activities.PilihMedia"></activity>
-        <activity android:name=".Activities.MediaTanah"></activity>
-        <activity android:name=".Activities.RekomendasiIkanActivity"></activity>
-        <activity android:name=".Activities.PilihJenisTanahActivity"></activity>
-        <activity android:name=".DataKolamActivity"></activity>
+        <activity android:name=".Activities.Welcome" />
+        <activity android:name=".Activities.Masuk" />
+        <activity android:name=".Activities.DaftarSebagai" />
+        <activity android:name=".Activities.Otp" />
+        <activity android:name=".Activities.Home" />
+        <activity android:name=".Activities.DaftarAgen" />
+        <activity android:name=".Activities.DaftarPembudidaya" />
+        <activity android:name=".Activities.PilihMedia" />
+        <activity android:name=".Activities.MediaTanah" />
+        <activity android:name=".Activities.RekomendasiIkanActivity" />
+        <activity android:name=".Activities.PilihJenisTanahActivity" />
+        <activity android:name=".DataKolamActivity" />
 
-
-
-
-
- <meta-data
+        <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
@@ -48,13 +47,8 @@
             tools:ignore="WrongManifestParent">
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/file_path">
-
-            </meta-data>
+                android:resource="@xml/file_path"></meta-data>
         </provider>
-
-
     </application>
-
 
 </manifest>

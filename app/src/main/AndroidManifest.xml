@@ -14,8 +14,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/ThemeSoya">
-<!--        <activity android:name=".Activities.TuntunanActivity"></activity>-->
-        <activity android:name=".Activities.TuntunanActivity">
+        <activity android:name=".Activities.Main">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -37,6 +36,7 @@
         <activity android:name=".Activities.DataKolamActivity"></activity>
         <activity android:name=".Activities.AgenSesuaiActivity"></activity>
         <activity android:name=".Activities.AjakanActivity"></activity>
+        <activity android:name=".Activities.TuntunanActivity"></activity>
 
  <meta-data
             android:name="preloaded_fonts"

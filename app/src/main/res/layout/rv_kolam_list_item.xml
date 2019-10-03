@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
@@ -71,6 +72,18 @@
         android:text="Luas"
         android:textColor="@android:color/black"
         app:layout_constraintStart_toEndOf="@+id/fl_daftar_kolam"
+        app:layout_constraintTop_toBottomOf="@+id/tv_nama_agen" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="7dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="m2"
+        android:textColor="@android:color/black"
+        app:layout_constraintStart_toEndOf="@+id/tv_luas"
         app:layout_constraintTop_toBottomOf="@+id/tv_nama_agen" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

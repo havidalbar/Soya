@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigasi_tuntunan"
+        android:icon="@drawable/ic_tuntunan"
+        android:title="Tuntunan" />
+
+    <item
+        android:id="@+id/navigasi_konsultasi"
+        android:icon="@drawable/ic_konsultasi"
+        android:title="Konsultasi" />
+
+    <item
+        android:id="@+id/navigasi_pantau"
+        android:icon="@drawable/ic_pantau"
+        android:title="Pantau" />
+
+    <item
+        android:id="@+id/navigasi_forum"
+        android:icon="@drawable/ic_forum"
+        android:title="Forum" />
+
+    <item
+        android:id="@+id/navigasi_hasil"
+        android:icon="@drawable/ic_hasil"
+        android:title="Hasil" />
+</menu>

@@ -1,5 +1,6 @@
 package com.example.soya.Activities
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -28,6 +29,10 @@ class RekomendasiIkanActivity : AppCompatActivity() {
         rv_rekomendasi_ikan_list.apply {
             layoutManager = LinearLayoutManager(context)
             adapter = ListRekomendasiIkanAdapter(rekomendasiIkan)
+        }
+
+        button_lanjut_rekomendasi.setOnClickListener{
+            startActivity(Intent(this, AgenSesuaiActivity::class.java))
         }
     }
 

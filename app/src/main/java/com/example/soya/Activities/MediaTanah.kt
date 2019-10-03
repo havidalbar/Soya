@@ -50,13 +50,14 @@ class MediaTanah : AppCompatActivity() {
         imageView = findViewById(R.id.hasilfoto)
         captureButton = findViewById(R.id.buttoncamera)
         buttonSudah = findViewById(R.id.buttonSudah)
-        buttonSudah.setOnClickListener(View.OnClickListener {
-
-            //todo albar
-        })
         captureButton.setOnClickListener(View.OnClickListener {
             if (checkPersmission()) takePicture() else requestPermission()
         })
+
+        buttonSudah.setOnClickListener {
+            val intent = Intent(this, PilihJenisTanahActivity::class.java)
+            startActivity(intent);
+        }
     }
 
     override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<out String>, grantResults: IntArray) {

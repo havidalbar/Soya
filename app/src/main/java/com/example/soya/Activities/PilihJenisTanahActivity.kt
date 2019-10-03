@@ -1,5 +1,6 @@
 package com.example.soya.Activities
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -25,6 +26,11 @@ class PilihJenisTanahActivity : AppCompatActivity() {
         rv_jenis_tanah_list.apply {
             layoutManager = LinearLayoutManager(context)
             adapter = ListPilihJenisTanahAdapter(pilihJenisTanah)
+        }
+
+        button_lanjut_jenis_tanah.setOnClickListener {
+            val intent = Intent(this, MediaAir::class.java)
+            startActivity(intent);
         }
     }
 

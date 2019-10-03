@@ -2,9 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.soya">
-    <uses-permission android:name="android.permission.CAMERA"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -24,8 +26,10 @@
         <activity android:name=".Activities.DaftarPembudidaya"></activity>
         <activity android:name=".Activities.PilihMedia"></activity>
         <activity android:name=".Activities.MediaTanah"></activity>
+        <activity android:name=".Activities.MediaAir"></activity>
         <activity android:name=".Activities.RekomendasiIkanActivity"></activity>
         <activity android:name=".Activities.PilihJenisTanahActivity"></activity>
+        <activity android:name=".Activities.TuntunanActivity"></activity>
         <activity android:name=".DataKolamActivity"></activity>
         <activity android:name=".Activities.TuntunanDetail2">
             <intent-filter>
@@ -35,7 +39,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".Activities.TuntunanDetail3"></activity>
-
+        <activity android:name=".Activities.DataKolamActivity"></activity>
+        <activity android:name=".Activities.AgenSesuaiActivity"></activity>
+        <activity android:name=".Activities.AjakanActivity"></activity>
 
 
 
@@ -52,13 +58,8 @@
             tools:ignore="WrongManifestParent">
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
-                android:resource="@xml/file_path">
-
-            </meta-data>
+                android:resource="@xml/file_path"></meta-data>
         </provider>
-
-
     </application>
-
 
 </manifest>

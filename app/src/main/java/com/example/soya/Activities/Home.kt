@@ -17,8 +17,6 @@ class Home : AppCompatActivity() {
 
     private var fragment_home_container: FrameLayout? = null
 
-
-
     private val mOnNavigationItemSelectedListener = BottomNavigationView.OnNavigationItemSelectedListener { item ->
         when (item.itemId) {
             R.id.navigasi_beranda -> {

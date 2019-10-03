@@ -16,4 +16,5 @@
     <color name="colorTextJudulBlue">#1F355E</color>
     <color name="colorStatusBar">#0095CA</color>
     <color name="colorEditText">#6C6363</color>
+    <color name="white">#ffffff</color>
 </resources>

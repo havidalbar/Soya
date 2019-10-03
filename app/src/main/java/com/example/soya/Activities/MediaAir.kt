@@ -5,8 +5,7 @@ import android.os.Bundle
 import com.example.soya.R
 import android.widget.Button
 import android.content.Intent
-
-
+import kotlinx.android.synthetic.main.activity_media_air.*
 
 
 class MediaAir : AppCompatActivity() {
@@ -18,10 +17,8 @@ class MediaAir : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_media_air)
 
-        buttonLanjutkan = findViewById(R.id.button)
-
-        buttonLanjutkan.setOnClickListener{
-            startActivity(Intent(this, Home::class.java))
+        button_lanjut_faktor_air.setOnClickListener{
+            startActivity(Intent(this, DataKolamActivity::class.java))
         }
     }
 }

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activities.PilihMedia"
+    tools:context=".Activities.AgenSesuaiActivity"
     android:background="#FFFFFF">
 
     <ImageView
@@ -57,57 +57,47 @@
 
     <TextView
         android:id="@+id/pembudidayaan2"
-        android:layout_width="188dp"
-        android:layout_height="43dp"
-        android:layout_marginStart="53dp"
-        android:layout_marginTop="192dp"
-        android:layout_marginEnd="23dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
         android:fontFamily="@font/roboto_medium"
         android:text="@string/nama_agen"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="#1F355E"
         android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.884"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/apamedia" />
+        app:layout_constraintStart_toEndOf="@+id/buttontanah"
+        app:layout_constraintTop_toTopOf="@+id/buttontanah" />
 
     <TextView
         android:id="@+id/pembudidayaan3"
-        android:layout_width="188dp"
-        android:layout_height="43dp"
-        android:layout_marginStart="53dp"
-        android:layout_marginTop="228dp"
-        android:layout_marginEnd="23dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
         android:fontFamily="@font/roboto_medium"
         android:text="@string/umur"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="#1F355E"
         android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.673"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/apamedia" />
+        app:layout_constraintStart_toEndOf="@+id/buttontanah"
+        app:layout_constraintTop_toBottomOf="@+id/pembudidayaan2" />
 
     <TextView
         android:id="@+id/pembudidayaan4"
-        android:layout_width="188dp"
-        android:layout_height="43dp"
-        android:layout_marginStart="53dp"
-        android:layout_marginTop="276dp"
-        android:layout_marginEnd="23dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
         android:fontFamily="@font/roboto_medium"
         android:text="@string/lokasi"
-        android:textAlignment="center"
+        android:textAlignment="viewStart"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="#1F355E"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.952"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/apamedia" />
+        app:layout_constraintStart_toEndOf="@+id/buttontanah"
+        app:layout_constraintTop_toBottomOf="@+id/pembudidayaan3" />
 
     <ImageView
         android:id="@+id/buttontanah"
@@ -115,23 +105,20 @@
         android:layout_height="149dp"
         android:layout_marginStart="42dp"
         android:layout_marginTop="112dp"
-        android:layout_marginEnd="42dp"
-        android:background="@drawable/tanah"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        android:src="@drawable/useralfa"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/pembudidayaan"
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button_lanjut_agen_sesuai"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
         android:layout_marginTop="539dp"
         android:layout_marginEnd="30dp"
         android:background="@drawable/button_keluar_akun"
-        android:text="Halo Juga Bapak Antoni"
+        android:text="Halo Juga Ibu Alfa"
         android:textAllCaps="false"
         android:textColor="@android:color/white"
         android:textSize="16sp"

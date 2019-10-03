@@ -13,7 +13,7 @@ class AjakanActivity: AppCompatActivity() {
         setContentView(R.layout.activity_ajakan)
 
         button_lanjut_ajakan.setOnClickListener {
-            val intent = Intent(this, MediaAir::class.java)
+            val intent = Intent(this, TuntunanActivity::class.java)
             startActivity(intent);
         }
     }

@@ -53,9 +53,9 @@ class ForumFragment : Fragment(){
 
 
     fun addPostForums() {
-        postForums.add(PostForum("Marjuki","02 Oktober 2019, 19:54","Bagaimana cara membersihkan kolam yang ada ikannya?","1","usermarjuki"))
-        postForums.add(PostForum("Siska","02 Oktober 2019, 11:42","Bagaimana cara memilih benih yang berkualitas??","3","usersiska"))
-        postForums.add(PostForum("Herman","30 September 2019, 18:39","Disini pada pake media budidaya apa?bagi alasan kalian dong","5","userherman"))
-        postForums.add(PostForum("Dodi","28 September 2019, 20:14","Penyakit yang umumnya menyerah ikan pada proses budidaya","9","userdodi"))
+        postForums.add(PostForum("Havid","02 Oktober 2019, 19:54","Bagaimana cara membersihkan kolam yang ada ikannya?","1","userhavid"))
+        postForums.add(PostForum("Nanta","02 Oktober 2019, 11:42","Bagaimana cara memilih benih yang berkualitas??","3","usernanta"))
+        postForums.add(PostForum("Eka","30 September 2019, 18:39","Disini pada pake media budidaya apa?bagi alasan kalian dong","5","usereka"))
+        postForums.add(PostForum("Alfa","28 September 2019, 20:14","Penyakit yang umumnya menyerah ikan pada proses budidaya","9","useralfa"))
     }
 }

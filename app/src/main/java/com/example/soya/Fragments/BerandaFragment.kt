@@ -1,11 +1,13 @@
 package com.example.soya.Fragments
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.soya.Activities.PilihMedia
 import com.example.soya.Adapters.ListKolamAdapter
 import com.example.soya.R
 import kotlinx.android.synthetic.main.fragment_beranda.*
@@ -47,6 +49,11 @@ class BerandaFragment : Fragment(){
         rv_kolam_list.apply {
             layoutManager = LinearLayoutManager(activity)
             adapter = ListKolamAdapter(kolamIkans)
+        }
+
+        floatingActionButtonTambah.setOnClickListener {
+            val intent = Intent(context, PilihMedia::class.java)
+            startActivity(intent);
         }
     }
 

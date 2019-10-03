@@ -14,7 +14,7 @@ class TuntunanDetail3 : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_tuntunan2)
+        setContentView(R.layout.activity_tuntunan3)
         buttonLanjut = findViewById(R.id.buttonLanjut)
         buttonKembali = findViewById(R.id.buttonKembali)
 

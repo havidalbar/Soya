@@ -89,7 +89,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="27dp"
-        android:layout_marginTop="420dp"
+        android:layout_marginTop="444dp"
         android:layout_marginEnd="27dp"
         android:fontFamily="sans-serif-medium"
         android:text="• Ikan lele jantan bisa dijadikan indukan setelah berumur 8 bulan, sedangkan untuk lele betina setidaknya berumur satu tahun"
@@ -134,12 +134,15 @@
         android:id="@+id/textView15"
         android:layout_width="93dp"
         android:layout_height="61dp"
-        android:layout_marginTop="260dp"
+        android:layout_marginTop="89dp"
+        android:layout_marginBottom="20dp"
         android:paddingTop="20dp"
         android:text="2/5"
         android:textAlignment="center"
         android:textColor="@android:color/black"
-        app:layout_constraintTop_toBottomOf="@+id/textView16"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="158dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonLanjut"
+        app:layout_constraintStart_toEndOf="@+id/buttonKembali"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>

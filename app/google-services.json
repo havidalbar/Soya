@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "174130992085",
+    "firebase_url": "https://soya-be1fa.firebaseio.com",
+    "project_id": "soya-be1fa",
+    "storage_bucket": "soya-be1fa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174130992085:android:f0ce85e23d312c3b8d635c",
+        "android_client_info": {
+          "package_name": "com.example.soya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "174130992085-qvnpral7s49g1v9b6u5nligndlbg7ksv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.soya",
+            "certificate_hash": "cf802df13a2cde1959dd7a125be93039d1ebc2c4"
+          }
+        },
+        {
+          "client_id": "174130992085-ui8e2f074l0huk895ciueg2g5380jpk7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCewQC9dj_0jmObed7BPILpGhHPnJ8kAnA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "174130992085-ui8e2f074l0huk895ciueg2g5380jpk7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

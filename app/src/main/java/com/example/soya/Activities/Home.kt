@@ -11,9 +11,13 @@ import com.example.soya.R
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import kotlinx.android.synthetic.main.activity_home.*
 
-class HomeActivity : AppCompatActivity() {
+
+
+class Home : AppCompatActivity() {
 
     private var fragment_home_container: FrameLayout? = null
+
+
 
     private val mOnNavigationItemSelectedListener = BottomNavigationView.OnNavigationItemSelectedListener { item ->
         when (item.itemId) {
@@ -53,5 +57,11 @@ class HomeActivity : AppCompatActivity() {
         bn_navigasi_home.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener)
         val fragment = BerandaFragment.newInstance()
         addFragment(fragment)
+
+
+
+
     }
+
+
 }

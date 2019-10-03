@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.PilihMedia"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="39dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/ic_back_button"
+        android:tint="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="@+id/view"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/apamedia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="143dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="144dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/halo_bapak"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#1F355E"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/pembudidayaan"
+        android:layout_width="357dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="73dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="73dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/deskripsi_agen"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#1F355E"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/apamedia" />
+
+
+    <TextView
+        android:id="@+id/pembudidayaan2"
+        android:layout_width="188dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="192dp"
+        android:layout_marginEnd="23dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/nama_agen"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#1F355E"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.884"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/apamedia" />
+
+    <TextView
+        android:id="@+id/pembudidayaan3"
+        android:layout_width="188dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="228dp"
+        android:layout_marginEnd="23dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/umur"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#1F355E"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.673"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/apamedia" />
+
+    <TextView
+        android:id="@+id/pembudidayaan4"
+        android:layout_width="188dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="276dp"
+        android:layout_marginEnd="23dp"
+        android:fontFamily="@font/roboto_medium"
+        android:text="@string/lokasi"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="#1F355E"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.952"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/apamedia" />
+
+    <ImageView
+        android:id="@+id/buttontanah"
+        android:layout_width="154dp"
+        android:layout_height="149dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="42dp"
+        android:background="@drawable/tanah"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pembudidayaan"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="539dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/button_keluar_akun"
+        android:text="Halo Juga Bapak Antoni"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
